@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Este relato faz parte do processo avaliativo da disciplina de sistemas operacionais no curso superior em análise e desenvolvimento de sistemas, ofertado na diretoria acadêmica de gestão e tecnologia da informação no campus natal-central do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte.
+Este relato faz parte do processo avaliativo da disciplina de Sistemas Operacionais no curso superior em análise e desenvolvimento de sistemas, ofertado na diretoria acadêmica de gestão e tecnologia da informação no campus natal-central do Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte.
 
 Tem como objetivo principal relatar como implementar linhas de execução na linguagem Rust.
 
@@ -96,5 +96,7 @@ fn main() {
 ### Considerações finais
 
 A implementação de threads em Rust destaca-se pela segurança em tempo de compilação. O modelo de posse (*ownership*) e tipos como `Arc` e `Mutex` evitam *data races* antes mesmo do código ser executado, tornando a programação concorrente mais previsível e eficiente quando comparada a outras linguagens.
+
+Obs: os códigos em rust equivalentes aos códigos em python apresentados em aula podem ser encontrados em: 2026-2-Bimestre-1-Atividade-2-Rust>src>rust
 
 ---
